@@ -5,6 +5,8 @@
 - License key
 - Read this man till the end :)
 
+## Steps to run
+
 1. Register at [portswigger](https://portswigger.net/users/youraccount)
 2. Get your trial/pay for your license key
 3. `git clone https://github.com/whitespots/burp_docker.git`
