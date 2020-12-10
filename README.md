@@ -7,7 +7,7 @@
 
 1. Register at [portswigger](https://portswigger.net/users/youraccount)
 2. Get your trial/pay for your license key
-3. `git clone`
+3. `git clone https://github.com/whitespots/burp_docker.git`
 4. Edit the `entrypoint.sh` file (paste your key there)
 5. Run build with `docker build -t burp_docker .`
 6. Run it an have fun with your security researches
