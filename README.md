@@ -7,15 +7,15 @@
 
 ## Steps to run
 
-1. Register at [portswigger](https://portswigger.net/users/youraccount)
-2. Get your trial/pay for your license key
-3. `git clone https://github.com/whitespots/burp_docker.git`
-4. Edit the `entrypoint.sh` file (paste your key there)
-5. Run build with `docker build -t burp_docker .`
-6. Run it an have fun with your security researches
+1. Get your trial [here](https://portswigger.net/burp/pro/trial)/pay for your license key.
+2. `git clone https://github.com/whitespots/burp_docker.git`
+3. Run build with `docker build -t burp_docker .`
+4. Run it an have fun with your security researches
 
 ```bash
+export BURP_KEY="Your_Burp_Key" && \
 docker run --rm \
+  -e BURP_KEY=$BURP_KEY
   -v "$(pwd):/home/burp/.java" \
   -p 8080:8080 \
   -p 1337:1337 \
