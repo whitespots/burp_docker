@@ -12,8 +12,11 @@
 3. Run build with `docker build -t burp_docker .`
 4. Run it an have fun with your security researches
 
+`export BURP_KEY="$(cat key.txt)" `
+
+`export BURP_KEY="Your_Burp_Key" `
+
 ```bash
-export BURP_KEY="Your_Burp_Key" && \
 docker run --rm \
   -e BURP_KEY=$BURP_KEY
   -v "$(pwd):/home/burp/.java" \
