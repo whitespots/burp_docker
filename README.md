@@ -12,7 +12,7 @@
 3. Create a `key.txt` file and place your key there or just pass to the next step
 4. Export environment with `export BURP_KEY="$(cat key.txt)"` or  `export BURP_KEY="Your_Burp_Key"`
 5. Run build with `docker build -t burp_docker .`
-6. Run it an have fun with your security researches. API is here `http://0.0.0.0:1337`
+6. Run it:
 
 ```bash
 docker run --rm \
@@ -23,6 +23,8 @@ docker run --rm \
   --name burp-suite-pro \
   burp_docker
 ```
+
+7. Have fun with your security researches. API is here `http://0.0.0.0:1337`
 
 ## API authentication setup 
 
