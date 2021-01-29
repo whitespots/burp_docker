@@ -16,7 +16,7 @@
 
 ```bash
 docker run --rm \
-  -e BURP_KEY=$BURP_KEY
+  -e BURP_KEY=$BURP_KEY \
   -v "$(pwd):/home/burp/.java" \
   -p 8080:8080 \
   -p 1337:1337 \
