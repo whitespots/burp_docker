@@ -9,9 +9,10 @@
 
 1. Get your trial [here](https://portswigger.net/burp/pro/trial)/pay for your license key.
 2. `git clone https://github.com/whitespots/burp_docker.git`
-3. Export environment with `export BURP_KEY="$(cat key.txt)"` or  `export BURP_KEY="Your_Burp_Key"`
-4. Run build with `docker build -t burp_docker .`
-5. Run it an have fun with your security researches
+3. Create a `key.txt` file and place your key there or just pass to the next step
+4. Export environment with `export BURP_KEY="$(cat key.txt)"` or  `export BURP_KEY="Your_Burp_Key"`
+5. Run build with `docker build -t burp_docker .`
+6. Run it an have fun with your security researches. API is here `http://0.0.0.0:1337`
 
 ```bash
 docker run --rm \
